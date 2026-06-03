@@ -1,5 +1,15 @@
 {
-  "members": [],
-  "books": [],
-  "loans": []
+  "books": {
+    "B001": {"title": "The Hobbit"}
+  },
+  "members": {
+    "M001": {"name": "Alice Smith"}
+  },
+  "loans": [
+    {
+      "book_id": "B001",
+      "member_id": "M001",
+      "due_date": "2026-05-15"
+    }
+  ]
 }
