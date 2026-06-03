@@ -16,13 +16,10 @@ def save_data(data):
 def register_member(member_id: str, name: str) -> dict:
     if not member_id or not name:
         raise ValueError("ID and name are required.")
-    
     data = load_data()
-    
     for m in data["members"]:
         if m["id"] == member_id:
             raise ValueError(f"Member with ID '{member_id}' already exists.")
-    
     member = {"id": member_id, "name": name}
     data["members"].append(member)
     save_data(data)

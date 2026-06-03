@@ -1,5 +1,15 @@
 {
-  "members": [],
-  "books": [],
+  "members": [
+    {
+      "id": "M001",
+      "name": "Ana Torres"
+    }
+  ],
+  "books": [
+    {
+      "id": "B001",
+      "title": "Clean Code"
+    }
+  ],
   "loans": []
 }
