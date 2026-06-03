@@ -1,15 +1,15 @@
 {
-  "books": {
-    "B001": {"title": "The Hobbit"}
-  },
-  "members": {
-    "M001": {"name": "Alice Smith"}
-  },
-  "loans": [
+  "members": [
     {
-      "book_id": "B001",
-      "member_id": "M001",
-      "due_date": "2026-05-15"
+      "id": "M001",
+      "name": "Ana Torres"
     }
-  ]
+  ],
+  "books": [
+    {
+      "id": "B001",
+      "title": "Clean Code"
+    }
+  ],
+  "loans": []
 }
